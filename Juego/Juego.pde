@@ -19,6 +19,7 @@ public void draw(){
   this.lastTime = currentTime;
   // ejecución del contenido del lienzo
   background(0);
+  player.updatePosition();
   player.display();
   
 }
